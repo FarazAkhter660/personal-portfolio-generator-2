@@ -2,9 +2,10 @@
   "name": "portfolio-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://guilhermebalog.github.io/portfolio-generator/",
+  "homepage": "https://portfolio-generator/",
   "dependencies": {
     "axios": "^0.21.1",
+    "caniuse-lite": "^1.0.30001473",
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -14,5 +15,8 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export"
+  },
+  "devDependencies": {
+    "node": "^16.0.0"
   }
 }
