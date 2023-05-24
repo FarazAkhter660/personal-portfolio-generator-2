@@ -16,6 +16,7 @@ function Portfolio({ username }) {
     const [ user, setUser ] = useState({
         name: 'Loading...'
     })
+    getComputedStyle()
 
     useEffect(() => {
         if(!username) router.replace('/')
